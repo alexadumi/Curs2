@@ -7,7 +7,7 @@ package OOP.heroes;
              }
 
              @Override
-             public void takeDamage() {
+             public void dotakeDamage() {
                  life--;
                  energy++;
 
@@ -15,7 +15,7 @@ package OOP.heroes;
              }
 
              @Override
-             public void attack() {
+             public void doattack() {
                  energy-=3;
 
 
