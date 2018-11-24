@@ -1,13 +1,16 @@
 package OOP.vet;
 
-public class Hippo implements WildAnimalPet {
-    public void makeNoise() {
-        System.out.println("hip"); {
+      public class Hippo implements WildAnimalPet {
 
-            public void play (){
-                System.out.println("Ride me");
-            }
-        }
-    }
+          @Override
+          public void makeNoise(){
+              System.out.println("hip!hip!");
 
-}
+          }
+
+          @Override
+          public void play() {
+              System.out.println("Ride me");
+          }
+      }
+

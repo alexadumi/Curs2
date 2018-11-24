@@ -1,17 +1,18 @@
 package OOP.vet;
 
-public class Giraffe implements WildAnimalPet {
+    public class Giraffe implements WildAnimalPet{
+        @Override
+        public void makeNoise () {
+            System.out.println("gif!gif!");
+        }
+        public void sleep() {
+            System.out.println("zzzzz");
+        }
 
-   public void makeNoise(){
-       System.out.println("gif!gif!");
 
+        @Override
+        public void play() {
+            System.out.println("Head down");
+        }
     }
-    public void sleep (){
-        System.out.println("zzzzz");
 
-    }
-    public void play(){
-        System.out.println("Head Down");
-    }
-
-}

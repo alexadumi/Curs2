@@ -1,4 +1,4 @@
 package OOP.vet;
 
-public class WildAnimalPet extends WildAnimalPet {
+ public interface WildAnimalPet extends WildAnimal, Pet {
 }

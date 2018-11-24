@@ -1,7 +1,12 @@
 package OOP.vet;
 
-public class Vet {
-    public void giveShotTo (WildAnimal animal);
-        animal.makeNoise();
+   public class Vet {
+       public void giveShotTo(WildAnimal wildAnimal) {
+           wildAnimal.makeNoise();
 
-}
+
+
+       }
+   }
+
+
